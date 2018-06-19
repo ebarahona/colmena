@@ -66,9 +66,9 @@
     "loopback-ds-paginate-mixin": "1.0.4",
     "loopback-ds-readonly-mixin": "2.0.2",
     "loopback-ds-timestamp-mixin": "3.4.1",
-    "nsp": "2.6.3",
+    "nsp": "3.0.0",
     "options": "0.0.6",
-    "request": "2.81.0",
+    "request": "2.82.0",
     "serve-favicon": "2.4.3",
     "strong-error-handler": "2.1.0"
   }
