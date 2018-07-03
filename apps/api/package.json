@@ -30,7 +30,9 @@
     "initdb": "node bin/initdb",
     "sdk": "cross-env NODE_ENV=codegen lb-sdk --wipe enabled server/server.js ../../packages/admin-lb-sdk/src",
     "start": "node .",
-    "test": "true"
+    "test": "true",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "server/server.js",
   "dependencies": {
@@ -53,8 +55,8 @@
     "js-yaml": "3.8.4",
     "lodash": "4.17.4",
     "loopback": "3.8.0",
-    "loopback-boot": "2.25.0",
-    "loopback-component-explorer": "4.2.0",
+    "loopback-boot": "2.27.1",
+    "loopback-component-explorer": "4.3.1",
     "loopback-component-meta": "1.1.2",
     "loopback-component-model-extender": "github:colmena/loopback-component-model-extender#component-package",
     "loopback-component-ping": "2.0.2",
@@ -70,6 +72,8 @@
     "options": "0.0.6",
     "request": "2.81.0",
     "serve-favicon": "2.4.3",
-    "strong-error-handler": "2.1.0"
-  }
+    "strong-error-handler": "2.1.0",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }
