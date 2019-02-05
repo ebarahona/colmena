@@ -51,7 +51,7 @@
     "faker": "4.1.0",
     "helmet": "3.6.1",
     "js-yaml": "3.8.4",
-    "lodash": "4.17.4",
+    "lodash": "4.17.11",
     "loopback": "3.8.0",
     "loopback-boot": "2.25.0",
     "loopback-component-explorer": "4.2.0",
