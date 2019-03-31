@@ -50,7 +50,7 @@
     "cross-env": "5.0.1",
     "faker": "4.1.0",
     "helmet": "3.6.1",
-    "js-yaml": "3.8.4",
+    "js-yaml": "3.13.0",
     "lodash": "4.17.4",
     "loopback": "3.8.0",
     "loopback-boot": "2.25.0",
