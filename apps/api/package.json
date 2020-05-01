@@ -30,7 +30,9 @@
     "initdb": "node bin/initdb",
     "sdk": "cross-env NODE_ENV=codegen lb-sdk --wipe enabled server/server.js ../../packages/admin-lb-sdk/src",
     "start": "node .",
-    "test": "true"
+    "test": "true",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "server/server.js",
   "dependencies": {
@@ -70,6 +72,8 @@
     "options": "0.0.6",
     "request": "2.81.0",
     "serve-favicon": "2.4.3",
-    "strong-error-handler": "2.1.0"
-  }
+    "strong-error-handler": "2.1.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
